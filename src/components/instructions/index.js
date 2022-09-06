@@ -60,7 +60,7 @@ const Instructions = ({ onNext }) => {
         </InstructionContent>
         <InstructionStep>Stap 4.</InstructionStep>
         <InstructionContent>
-          Scan hier de barcode van het product of scan de #WorkSmartPlayHard
+          Scan hier de barcode van het product of scan de Spaceship Earth
           sticker.
         </InstructionContent>
         <InstructionContent>

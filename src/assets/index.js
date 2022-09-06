@@ -3,7 +3,7 @@ import telefoonGoed from './audio/telefoon-goed.mp3';
 import step_1 from './images/cleanup/cleanup_stap_1.gif';
 import MicrosoftIcon from './images/common/Microsoft.png';
 import RetrieveCase from './images/common/RetrieveCase.png';
-import splashscreenIcon from './images/common/splashscreen.jpeg';
+import splashscreenIcon from './images/common/splashscreen.png';
 import StartInstruction from './images/common/StartInstruction.svg';
 import watermark from './images/common/watermark.png';
 import WindowsIcon from './images/common/WIN22_Windows11_logo_horiz_blue_rgb.png';

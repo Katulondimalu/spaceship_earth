@@ -2,7 +2,7 @@ import React, { useEffect } from 'react';
 
 const NoInternet = () => {
   useEffect(() => {
-    document.title = '#WorkSmartPlayHard';
+    document.title = 'Spaceship Earth';
   });
 
   return <div></div>;
