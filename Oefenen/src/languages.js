@@ -2,25 +2,25 @@ import { with_translation } from './utils/use';
 
 export let translations = {
   'The Box': {
-    nl: '##WorkSmartPlayHard',
+    nl: '#WorkSmartPlayHard',
   },
   'The box of': {
     nl: 'De kist van',
   },
   '#workhardplaysmart': {
-    nl: '##WorkSmartPlayHard',
+    nl: '#WorkSmartPlayHard',
   },
   Enter: {
     nl: 'Verder',
   },
   'Team Name': {
-    nl: 'Team Naam',
+    nl: 'Teamnaam',
   },
   'Scan the qr code below to play on your own phone.': {
     nl: "Medespelers kunnen deze  QR code scannen om video's mee te kijken op hun eigen telefoon. Wanneer iedereen de QR code heeft gescand kun je het spel starten. LET OP: je hebt vanaf dan 20 minuten de de game te spelen.",
   },
   'Choose a team name': {
-    nl: 'Kies een teamnaam',
+    nl: 'Kies een team naam',
   },
   'Start Game': {
     nl: 'Start Spel',
@@ -73,16 +73,16 @@ export let translations = {
     nl: 'Deel foto',
   },
   'Bring back the box': {
-    nl: 'Breng de GamifiCase terug',
+    nl: 'Stop de puzzels terug in de GamifiCase en breng deze terug naar de service balie',
   },
   hintText_1a: {
     nl: 'Maak de letters en cijfers compleet. Welke kleuren maak je als je dit doet? Gebruik deze om de volgorde van de cijfers en letters te vinden',
   },
   hintText_1b: {
-    nl: 'oranje = geel+rood, groen=geel+blauw, grijs=zwart+wit,roze=rood+wit, de cijfers geven de volgorde aan',
+    nl: 'oranje = geel+rood, groen=geel+blauw, grijs=zwart+wit,roze=rood+wit',
   },
   hintText_1c: {
-    nl: 'zoek de M365 software pass, deze liggen naast de computer afdeling',
+    nl: 'zoek de M365 software pass',
   },
   hintText_2a: {
     nl: 'Gebruik de spiegel om de figuren in de app te verbinden. Wat zie je?',
@@ -118,10 +118,7 @@ export let translations = {
     nl: 'De code van het volgende vak is:',
   },
   'Cleanup Instructions': {
-    nl: 'Opruim instructies:',
-  },
-  CleanUpText1: {
-    nl: 'Leg de puzzels terug in de GamifiCase en breng de case terug naar de service balie',
+    nl: 'Opruim instructies',
   },
   'Snap a picture': {
     nl: 'Maak een foto',
@@ -143,7 +140,7 @@ export let translations = {
     nl: 'Vind een  _ _ _ _ game pass en scan de barcode.',
   },
   game3ClueText: {
-    nl: 'Klik op het Instagram logo en check mijn reactie @korthom. Volg de oplossing en vind wat ik zoek!',
+    nl: 'Check mijn instagram, ga naar wat ik zoek!',
   },
   game4ClueText: {
     nl: 'Ga naar de microsoft _ _ _ _ _ _ _ go en scan de barcode.',
@@ -160,12 +157,9 @@ export let translations = {
   game4VideoUrl: {
     nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Mediamarkt%2FMediaMarkt%20Escaperoom%20-%20Thomas%204.mp4?alt=media&token=a0607b1e-1c75-4ef3-8c08-54c83ba6ac2a',
   },
-  game5VideoUrl: {
-    nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Mediamarkt%2F5.%20MediaMarkt%20Escaperoom%20-%20Joost%20video%205%20-%209x16.mp4?alt=media&token=3839fe46-f17a-4ae2-abc7-af56119594f2',
-  },
   'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Filmpjes%20Engels%2FSpel%205%20-%20ondertiteld%20-%20Engels.mp4?alt=media&token=f88703aa-d7e2-4a3c-8a01-2a0bf6a9345b':
     {
-      nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Mediamarkt%2F5.%20MediaMarkt%20Escaperoom%20-%20Joost%20video%205%20-%209x16.mp4?alt=media&token=3839fe46-f17a-4ae2-abc7-af56119594f2',
+      nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Mediamarkt%2Fv5_eind.mp4?alt=media&token=fcbb8615-9701-4a9c-ac0c-598391820b71',
     },
   'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Filmpjes%20Engels%2FSpel%206%20-%20ondertiteld%20-%20Engels.mp4?alt=media&token=3788d22c-02d5-41ae-8b53-455dd4c324c5':
     {
@@ -173,6 +167,9 @@ export let translations = {
     },
   'Scan the correct QR code to continue': {
     nl: 'Scan de juiste streepjescode om verder te gaan',
+  },
+  CleanUpText1: {
+    nl: 'Leg de puzzels terug in de GamifiCase en breng de case terug naar de service balie',
   },
   Step: {
     nl: 'Stap',
@@ -239,7 +236,7 @@ export let translations = {
   },
   'Mediamarkt is doing a giveaway for the participants of the game. By entering your contact information down below, you enter the raffle and have a chance to':
     {
-      nl: 'Er is een giveaway voor de deelnemers van het spel. Door je contactgegevens achter te laten kun je het volgende winnen: ',
+      nl: 'Mediamarkt doet een giveaway voor de deelnemers van het spel. Door je contactgegevens achter te laten kun je het volgende winnen: ',
     },
   'win an XBOX': {
     nl: 'win een XBOX series S',
@@ -277,57 +274,64 @@ export let translations = {
   'No rooms found for today': {
     nl: 'Geen kamers gevonden voor vandaag',
   },
-  'please set team name first': {
-    nl: 'stel eerst een teamnaam in',
-  },
-  'Name is required': {
-    nl: 'Naam is verplicht',
-  },
-  'Email is required': {
-    nl: 'Email is verplicht',
-  },
-  'Invalid email address': {
-    nl: 'Ongeldig emailadres',
-  },
-  'Age is required': {
-    nl: 'Leeftijd is verplicht',
-  },
-  'Age must be a number': {
-    nl: 'Leeftijd moet een nummer zijn',
-  },
-  'City is required': {
-    nl: 'Stad is verplicht',
-  },
-  'Phone is required': {
-    nl: 'Telefoon is verplicht',
-  },
-  'Phone must be a number': {
-    nl: 'Telefoon moet een nummer zijn',
-  },
-  Password: {
-    nl: 'Wachtwoord',
-  },
-  'Password is required': {
-    nl: 'Wachtwoord is verplicht',
-  },
-  Login: {
-    nl: 'Inloggen',
-  },
-  'Welcome to admin dashboard': {
-    nl: 'Welkom op de admin dashboard',
-  },
-  Logout: {
-    nl: 'Uitloggen',
-  },
-  Export: {
-    nl: 'Exporteren',
-  },
-  'Click the button below to export gamers information': {
-    nl: 'Klik op de knop hieronder om de spelersgegevens te exporteren',
-  },
-  'Email or password is incorrect': {
-    nl: 'Email of wachtwoord is incorrect',
-  }
 };
 
 export let useTranslation = with_translation(translations);
+
+/*
+'Fold the empty triangle onto the full triangle, empty asterisk onto the full asterisk, etc. Do this in the order shown on the box. Which character do you see?':
+    {
+      en: 'Hint 1',
+      nl: 'Hint 2',
+    },
+  'Press the following characters and open the door on the box:': {
+    en: 'Hint 1',
+    nl: 'Hint 2',
+  },
+  'Examine the box with the mirror.': {
+    en: 'Hint 1',
+    nl: 'Hint 2',
+  },
+  'How much do the letters C, E, F and H weigh?': {
+    en: 'Hint 1',
+    nl: 'Hint 2',
+  },
+  'The text mentions two locations. Go outside and look for these locations.': {
+    en: 'Hint 1',
+    nl: 'Hint 2',
+  },
+  'Look for signs in these locations? Do you see the signs on the box?': {
+    en: 'Hint 1',
+    nl: 'Hint 2',
+  },
+  'Slide the sliding compartment open. First put the magnet on the first sign. Then put the magnet on the second sign while you slide the box open.':
+    {
+      en: 'Hint 1',
+      nl: 'Hint 2',
+    },
+  'Slide the magnet over the back of the box, following the instructions.': {
+    en: 'Hint 1',
+    nl: 'Hint 2',
+  },
+  'When you reach the end of the journey, open the back of the box.': {
+    en: 'Hint 1',
+    nl: 'Hint 2',
+  },
+  'The order of the signs is:': {
+    en: 'Hint 1',
+    nl: 'Hint 2',
+  },
+  'Start from the drawn position.': {
+    en: 'Hint 1',
+    nl: 'Hint 2',
+  },
+  'The number of steps to be taken to turn the disc is indicated by the hands of the clocks.':
+    {
+      en: 'Hint 1',
+      nl: 'Hint 2',
+    },
+  'After turning the three discs, you get the following code.': {
+    en: 'Hint 1',
+    nl: 'Hint 2',
+  },
+  */

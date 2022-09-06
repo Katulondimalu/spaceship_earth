@@ -99,9 +99,10 @@ const BarcodeScanner = ({ codes, onNext }) => {
       <Stack spacing={2} direction='row' sx={{ margin: '0 1rem' }}>
         <TextField
           id='standard-basic'
-          label={t('write barcode')}
+          label={t('Team Name')}
           variant='standard'
           margin='dense'
+          name='team_name'
           required
           onChange={(e) => setInput(e.target.value)}
           fullWidth

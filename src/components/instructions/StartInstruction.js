@@ -43,25 +43,17 @@ const StartInstruction = ({ onNext }) => {
           GamifiCase. Zijn jullie het snelst?
         </InstructionContent>
         <InstructionContent>
-          Ga naar de Smartbar op de eerste verdieping om de GamifiCase op te halen en het spel te
+          Ga naar de servicebalie om de GamifiCase op te halen en het spel te
           beginnen.
         </InstructionContent>
         <Whitespace height={40} />
-        <InstructionContent>
-          <img
-            src={assets.images.common?.SmartBar}
-            alt=''
-            width={250}
-            height={180}
-          />
-        </InstructionContent>
         <InstructionStep>Spelregels</InstructionStep>
         <InstructionContent>
           Maak geen aantekeningen op de GamifiCase of op de spullen die er in
           zitten.
         </InstructionContent>
         <InstructionContent>
-          Breng de GamifiCase met alle spullen terug naar de Smartbar na het
+          Breng de GamifiCase met alle spullen terug naar de servicebalie na het
           spelen van het spel.
         </InstructionContent>
         <InstructionContent>

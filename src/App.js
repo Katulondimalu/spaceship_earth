@@ -27,7 +27,7 @@ const App = () => {
     if (!was_connected) {
       set_was_connected(is_connected);
     }
-    document.title = 'WorkSmartPlayHard - Microsoft';
+    document.title = 'Worksmartplayhard - Microsoft';
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [is_connected]);
 
