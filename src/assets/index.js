@@ -4,7 +4,7 @@ import step_1 from './images/cleanup/cleanup_stap_1.gif';
 import MicrosoftIcon from './images/common/Microsoft.png';
 import RetrieveCase from './images/common/RetrieveCase.png';
 import splashscreenIcon from './images/common/splashscreen.jpeg';
-import StartInstruction from './images/common/StartInstruction.svg';
+import StartInstruction from './images/common/globe_turning.gif';
 import watermark from './images/common/watermark.png';
 import WindowsIcon from './images/common/WIN22_Windows11_logo_horiz_blue_rgb.png';
 import xbox from './images/common/XBOXseriesX.jpg';

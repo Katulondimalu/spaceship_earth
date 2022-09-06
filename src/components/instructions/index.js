@@ -26,9 +26,8 @@ const Instructions = ({ onNext }) => {
       <Whitespace height={16} />
       <InstructionHeader>Start Instructies</InstructionHeader>
       <InstructionContent>
-        In de Microsoft Escape game word je in de MediaMarkt naar vier 
-        verschillende locaties gestuurd. Hiervoor doorloop je telkens 
-        de volgende stappen:
+        Je gaat de aarde redden door samen met je team een aantal inventieve puzzels op te lossen. 
+        Daarvoor heb ik een aantal stappen om je op weg te helpen.
         </InstructionContent>
       <div
         style={{
@@ -43,33 +42,23 @@ const Instructions = ({ onNext }) => {
         }}
       >
         <InstructionStep>Stap 1.</InstructionStep>
-        <InstructionContent>Bekijk het filmpje in de app.</InstructionContent>
+        <InstructionContent>Luister goed naar de host. Deze zal gezamenlijk het spel 
+          starten. Ga nog niet verder met de volgende stap, want bij de volgende stap begint de tijd te lopen.</InstructionContent>
         <InstructionStep>Stap 2.</InstructionStep>
         <InstructionContent>
-          Los de puzzel op. Voor elke puzzel moet je een onderdeel uit de GamifiCase
-          combineren met informatie uit de app.
-        </InstructionContent>
-        <InstructionContent>
-          Heb je wat hulp nodig? Er zitten hints in de app om je te helpen!
+        Elk team heeft één teamcaptain. Deze houdt de telefoon vast en zorgt ervoor dat iedereen 
+        de opdrachten goed hoort.
         </InstructionContent>
         <InstructionStep>Stap 3.</InstructionStep>
         <InstructionContent>
-          De oplossing van de puzzel is een product in de MediaMarkt. Ga naar
-          dit product toe. Heb je wat hulp nodig? Of kan je het product niet
-          vinden? Pak een hint!
+        In elk level van de game vind je een streepjescode. De teamcaptain scant deze streepjescode 
+        met de camera van het mobieltje.  Lukt het niet de streepjescode te scannen, vul dan het 
+        nummer in dat je er onder ziet staan.
         </InstructionContent>
         <InstructionStep>Stap 4.</InstructionStep>
         <InstructionContent>
-          Scan hier de barcode van het product of scan de Spaceship Earth
-          sticker.
-        </InstructionContent>
-        <InstructionContent>
-          Als de product variant niet is aangegeven kan elke variant van het
-          product gescand worden.
-        </InstructionContent>
-        <InstructionContent>
-          Let op, soms hebben producten meerdere barcodes. Werkt eentje niet?
-          Probeer een ander.
+        Forceer niks, hou alles goed bij elkaar en speel goed samen. Dan ben je een stap dichter bij 
+        het redden van moeder aarde.
         </InstructionContent>
         <InstructionContent>
           <img src={assets.images.common?.StartInstruction} alt='' />
