@@ -45,7 +45,7 @@ const SplashScreen = () => {
       <Whitespace height={10} />
 
       <img
-        src={assets.images.common.MicrosoftIcon}
+        src={assets.images.common.XboxIcon}
         style={{
           width: '100%',
           padding: 16,
@@ -55,30 +55,7 @@ const SplashScreen = () => {
         }}
         alt='icon'
       />
-      <img
-        src={assets.images.common.WindowsIcon}
-        style={{
-          width: '100%',
-          padding: 16,
-          marginTop: -30,
-          maxWidth: 230,
-          alignSelf: `center`,
-          transform: `translateY(10px)`,
-        }}
-        alt='icon'
-      />
-      <img
-        src={assets.images.common.XboxIcon}
-        style={{
-          width: '100%',
-          padding: 16,
-          marginTop: -50,
-          maxWidth: 190,
-          alignSelf: `center`,
-          transform: `translateY(10px)`,
-        }}
-        alt='icon'
-      />
+
       <Whitespace height={10} />
       <div
         style={{

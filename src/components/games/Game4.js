@@ -62,18 +62,7 @@ const Game4 = ({ onNext }) => {
           },
         ]}
       />
-      <img
-        // @ts-ignore
-        src={assets.images.clues.game4Clue}
-        style={{
-          width: '100%',
-          padding: 16,
-          maxWidth: 360,
-          alignSelf: `center`,
-          transform: `translateY(10px)`,
-        }}
-        alt='icon'
-      />
+
       <div style={{textAlign: 'center'}}>{t('game4ClueText')}</div>
       <BarcodeScanner codes={['42743', '000000']} onNext={onNext} />
 

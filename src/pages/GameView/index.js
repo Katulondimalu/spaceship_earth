@@ -6,6 +6,7 @@ import Game1 from '../../components/games/Game1';
 import Game2 from '../../components/games/Game2';
 import Game3 from '../../components/games/Game3';
 import Game4 from '../../components/games/Game4';
+import Game5 from '../../components/games/Game5';
 //import Game5 from '../../components/games/Game5';
 import Instructions from '../../components/instructions';
 import StartInstruction from '../../components/instructions/StartInstruction';
@@ -143,6 +144,7 @@ const GameView = () => {
                 }
                 update(room_ref, {
                   step: 2,
+                                    start_time: Date.now(),
                 });
               }}
               IsOptimusMasterControllerPrimeContext={
@@ -186,29 +188,32 @@ const GameView = () => {
               }}
               url={t('game2VideoUrl')}
             />
-          )}
-          {step === 5 && (
-            <Game2
-              onNext={() => {
-                if (!is_optimus_master_controller_prime) {
-                  window.alert(t('Only the gamemaster can control the game.'));
-                  return;
-                }
-                update(room_ref, { step: 6 });
-              }}
-            />
-          )}
-          {step === 6 && (
-            <PrevideoScreen
-              onNext={() => {
-                if (!is_optimus_master_controller_prime) {
-                  window.alert(t('Only the gamemaster can control the game.'));
-                  return;
-                }
-                update(room_ref, { step: 7 });
-              }}
-              url={t('game3VideoUrl')}
-            />
+            )}
+
+            {step === 5 && (
+              <Game2
+                onNext={() => {
+                  if (!is_optimus_master_controller_prime) {
+                    window.alert(t('Only the gamemaster can control the game.'));
+                    return;
+                  }
+                  update(room_ref, { step: 6 });
+                }}
+              />
+            )}
+  
+            {step === 6 && (
+              <PrevideoScreen
+                onNext={() => {
+                  if (!is_optimus_master_controller_prime) {
+                    window.alert(t('Only the gamemaster can control the game.'));
+                    return;
+                  }
+  
+                  update(room_ref, { step: 7 });
+                }}
+                url={t('game3VideoUrl')}
+              />
           )}
           {step === 7 && (
             <Game3
@@ -251,8 +256,31 @@ const GameView = () => {
                   window.alert(t('Only the gamemaster can control the game.'));
                   return;
                 }
+                update(room_ref, { step: 11 });
+              }}
+              url={t('game5VideoUrl')}
+            />
+          )}
+          {step === 11 && (
+            <Game5
+              onNext={() => {
+                if (!is_optimus_master_controller_prime) {
+                  window.alert(t('Only the gamemaster can control the game.'));
+                  return;
+                }
+                update(room_ref, { step: 12 });
+              }}
+            />
+          )}
+          {step === 12 && (
+            <PrevideoScreen
+              onNext={() => {
+                if (!is_optimus_master_controller_prime) {
+                  window.alert(t('Only the gamemaster can control the game.'));
+                  return;
+                }
                 update(room_ref, {
-                  step: 12,
+                  step: 13,
                   finished_time: Date.now(),
                   total_time_spent_score:
                     differenceInSeconds(Date.now(), room.start_time ?? 0) +
@@ -262,7 +290,7 @@ const GameView = () => {
               url={t('game5VideoUrl')}
             />
           )}
-          {step === 12 && (
+          {step === 13 && (
             <TopScore RoomContext={RoomContext} to='../end/leader-board' />
           )}
         </div>

@@ -62,25 +62,7 @@ const Game3 = ({ onNext }) => {
           },
         ]}
       />
-      <a
-        href='https://www.instagram.com/reel/Chr5EK_I0Fx/'
-        target='_blank'
-        rel='noopener noreferrer'
-        style={{ alignSelf: `center` }}
-      >
-        <img
-          // @ts-ignore
-          src={assets.images.clues.game3Clue}
-          style={{
-            width: '100%',
-            padding: 16,
-            maxWidth: 100,
-            alignSelf: `center`,
-            transform: `translateY(10px)`,
-          }}
-          alt='icon'
-        />
-      </a>
+
       <div style={{ textAlign: 'center' }}>{t('game3ClueText')}</div>
       <BarcodeScanner codes={['31153', '000000']} onNext={onNext} />
 

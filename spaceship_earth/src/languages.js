@@ -38,7 +38,7 @@ export let translations = {
     nl: 'Als je geen ster aan de hemel kunt zijn, wees dan een lampje in je huis.',
   },
   'Watch the video to continue to the next step.': {
-    nl: 'Bekijk de video om door te gaan naar de volgende stap.',
+    nl: 'Luister naar het geluidsfragment om door te gaan naar de volgende stap.',
   },
   'Skip video': {
     nl: 'Video overslaan',
@@ -134,16 +134,16 @@ export let translations = {
     nl: 'Alleen de gamemaster kan het spel besturen.',
   },
   game1ClueText: {
-    nl: 'Zoek een microsoft _ _ _ _ software pass en scan de barcode.',
+    nl: 'GAME 1',
   },
   game2ClueText: {
-    nl: 'Vind een  _ _ _ _ game pass en scan de barcode.',
+    nl: 'GAME 2',
   },
   game3ClueText: {
-    nl: 'Check mijn instagram, ga naar wat ik zoek!',
+    nl: 'GAME 3',
   },
   game4ClueText: {
-    nl: 'Ga naar de microsoft _ _ _ _ _ _ _ go en scan de barcode.',
+    nl: 'GAME 4',
   },
   game1VideoUrl: {
     nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Mediamarkt%2F1.%20MediaMarkt%20Escaperoom%20-%20Joost%20video%201%20-%209x16.mp4?alt=media&token=149fe9f0-aeaf-4f05-88a7-64f2d664100c',

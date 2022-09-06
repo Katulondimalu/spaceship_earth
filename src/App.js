@@ -83,11 +83,7 @@ const App = () => {
               <Route path='end/*' element={<Protected />}>
                 <Route
                   path='leader-board'
-                  element={<LeaderBoard to='../user-info' />}
-                />
-                <Route
-                  path='user-info'
-                  element={<UserInfo to='../photo-moment' />}
+                  element={<LeaderBoard to='../photo-moment' />}
                 />
                 <Route
                   path='photo-moment'
