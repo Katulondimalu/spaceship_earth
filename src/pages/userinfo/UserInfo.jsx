@@ -1,4 +1,5 @@
 import {
+  Alert,
   Box,
   Checkbox,
   ImageListItem,
@@ -23,7 +24,7 @@ const UserUnfo = ({ to }) => {
   const user_ref = ref(database, `users/${id}`);
   const [checked, setChecked] = useState(true);
   const [inputData, setinputData] = useState({});
-  const [error, setError] = useState('');
+  const [error, setError] = useState({});
 
   const handleChange = (event) => {
     const name = event.target.name;
@@ -33,7 +34,10 @@ const UserUnfo = ({ to }) => {
 
   const handleSubmit = (event) => {
     event.preventDefault();
-    if (!checked) return setError(t('please click on privacy policy'));
+    if (!checked) {
+      setError({ custom: 'please click on privacy policy' });
+      return;
+    }
     const errors = validation(inputData);
     if (Object.keys(errors).length !== 0) return setError(errors);
 
@@ -46,8 +50,7 @@ const UserUnfo = ({ to }) => {
       });
       navigate(to);
     } catch (error) {
-      console.log(error && error.message);
-      setError(t('something is wrong!'));
+      setError({ custom: 'something is wrong!' });
     }
   };
 
@@ -76,6 +79,12 @@ const UserUnfo = ({ to }) => {
           loading='lazy'
         />
       </ImageListItem>
+      {error && error.custom && (
+        <Stack sx={{ width: '100%' }} spacing={2}>
+          <Whitespace height={5} />
+          <Alert severity='error'>{error?.custom}</Alert>
+        </Stack>
+      )}
       <Whitespace height={5} />
       <Box component='form' onSubmit={handleSubmit} autoComplete='off'>
         <TextField

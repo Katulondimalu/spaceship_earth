@@ -86,18 +86,24 @@ const Game2 = ({ onNext }) => {
         alt='icon'
       />
       <div style={{ textAlign: 'center' }}>{t('game2ClueText')}</div>
+      <Whitespace height={16} />
+      <div style={{textAlign: 'center'}}>{t('Zoek het product in de winkel en scan de WorkHardPlaySmart sticker. Je kan ook het artikelnummerbordje of de barcode rechts boven op het product handmatig invoeren.')}</div>  
+     
       <BarcodeScanner
         codes={[
           '24533',
-          '000000',
           '889842505061',
           '889842374100',
           '889842563603',
           '889842504255',
+          '8984250506',
+          '8984237410',
+          '8984256360',
+          '8984250425',
           '12674863',
           '1617296',
           '1621533',
-          '1621532s',
+          '1621532',
         ]}
         onNext={onNext}
       />

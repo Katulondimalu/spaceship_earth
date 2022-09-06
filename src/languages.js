@@ -2,19 +2,19 @@ import { with_translation } from './utils/use';
 
 export let translations = {
   'The Box': {
-    nl: '##WorkSmartPlayHard',
+    nl: '#WorkSmartPlayHard',
   },
   'The box of': {
     nl: 'De kist van',
   },
   '#workhardplaysmart': {
-    nl: '##WorkSmartPlayHard',
+    nl: '#WorkSmartPlayHard',
   },
   Enter: {
     nl: 'Verder',
   },
   'Team Name': {
-    nl: 'Team Naam',
+    nl: 'Teamnaam',
   },
   'Scan the qr code below to play on your own phone.': {
     nl: "Medespelers kunnen deze  QR code scannen om video's mee te kijken op hun eigen telefoon. Wanneer iedereen de QR code heeft gescand kun je het spel starten. LET OP: je hebt vanaf dan 20 minuten de de game te spelen.",
@@ -29,13 +29,13 @@ export let translations = {
     nl: 'Deel spel',
   },
   'Waiting for camera...': {
-    nl: 'Wachten op camera...',
+    nl: 'Wachten op camera... Als de camera na een tijdje nogsteeds niet laad pas je browser instellingen aan en geef de website worksmarplayhard.nl toegang tot je camera. ',
   },
   'Enter Phone Number': {
     nl: 'Voer telefoonnummer in',
   },
   'If you cannot be a star in the sky, be a light in your house.': {
-    nl: 'Als je geen ster aan de hemel kunt zijn, wees dan een lampje in je huis.',
+    nl: 'Ben jij sneller dan je vrienden? Maak een foto, deel deze op je socials en daag iedereen uit om jouw tijd te verslaan!',
   },
   'Watch the video to continue to the next step.': {
     nl: 'Bekijk de video om door te gaan naar de volgende stap.',
@@ -63,7 +63,7 @@ export let translations = {
   },
   "You have 20 minutes to finish the game. You'll see the time you have left in the top of the screen.":
     {
-      nl: 'Je hebt 20 minuten om het spel te voltooien. Je ziet de tijd die je nog over hebt aan de bovenkant van het scherm.',
+      nl: 'Je hebt 20 minuten om het spel te voltooien. Je ziet je speeltijd aan de bovenkant van het scherm.',
     },
   'For every hint you unlock, there will be some time added to your final score. You will still be able to play the full 20 minutes, but your final score will be a bit less.':
     {
@@ -76,40 +76,40 @@ export let translations = {
     nl: 'Breng de GamifiCase terug',
   },
   hintText_1a: {
-    nl: 'Maak de letters en cijfers compleet. Welke kleuren maak je als je dit doet? Gebruik deze om de volgorde van de cijfers en letters te vinden',
+    nl: 'Maak de letters en cijfers compleet. Welke kleuren maak je als je dit doet? Gebruik deze om de volgorde van de cijfers en letters te vinden.',
   },
   hintText_1b: {
-    nl: 'oranje = geel+rood, groen=geel+blauw, grijs=zwart+wit,roze=rood+wit, de cijfers geven de volgorde aan',
+    nl: 'Los de puzzel op door de kleuren te combineren: oranje = geel+rood, groen=geel+blauw, grijs=zwart+wit,roze=rood+wit, de cijfers geven de volgorde aan. Tip: het product valt in de categorie computer software.',
   },
   hintText_1c: {
-    nl: 'zoek de M365 software pass, deze liggen naast de computer afdeling',
+    nl: 'Zoek een van de Microsoft 365 softwarepakketten, deze liggen als pasjes in de winkel naast en rondom de computer afdeling',
   },
   hintText_2a: {
-    nl: 'Gebruik de spiegel om de figuren in de app te verbinden. Wat zie je?',
+    nl: 'Gebruik de spiegel op het houten plaatje en verbind de figuren die je ziet in de app. Wat zie je?',
   },
   hintText_2b: {
-    nl: 'Zet de spiegel op de stippel lijnen',
+    nl: 'Zet de spiegel op de stippel lijnen en kijk welke letters je krijgt, tip: het product valt in de games categorie.',
   },
   hintText_2c: {
-    nl: 'Zoek de XBOX gamepass',
+    nl: 'Zoek de Xbox Game Pass, deze hangen in de schappen bij de game afdeling',
   },
   hintText_3a: {
-    nl: 'Ga naar mijn instagram comments voor het juiste begin',
+    nl: 'Open Instagram door op het logo te klikken en zoek de reactie van korthom, los daarna het doolhof op.',
   },
   hintText_3b: {
-    nl: 'C = the way 2 go, los het doolhof op. Welke letters kom je onderweg tegen?',
+    nl: 'Volg C naar de oplossing. Welke letters kom je onderweg in het doolhof tegen?',
   },
   hintText_3c: {
-    nl: 'Ga naar de smartphones',
+    nl: 'Ga naar de smartphones afdeling en scan een van de WorkSmartPlayHard stickers.',
   },
   hintText_4a: {
-    nl: 'Leg de twee blaadjes op elkaar',
+    nl: 'Leg de twee houten plankjes in de goede orientaties op elkaar.',
   },
   hintText_4b: {
-    nl: 'Maak de vormen in de app met de blaadjes. Welke letters zie je?',
+    nl: 'Combineer de twee plankjes en maak hiermee de vormen die je ziet in de app. Welke letters zie je? Tip: het product ligt op de computer afdeling.',
   },
   hintText_4c: {
-    nl: 'Zoek de Microsoft Surface Go',
+    nl: 'Zoek de Microsoft Surface Go Laptop, deze ligt op een van de tafels in de computer afdeling',
   },
   Continue: {
     nl: 'Verder',
@@ -137,16 +137,16 @@ export let translations = {
     nl: 'Alleen de gamemaster kan het spel besturen.',
   },
   game1ClueText: {
-    nl: 'Zoek een microsoft _ _ _ _ software pass en scan de barcode.',
+    nl: 'Los de puzzel op, zoek een softwarepakket van:  _ _ _ _ en scan de barcode van dit product',
   },
   game2ClueText: {
-    nl: 'Vind een  _ _ _ _ game pass en scan de barcode.',
+    nl: 'Vind een  _ _ _ _ Game Pass en scan de barcode.',
   },
   game3ClueText: {
     nl: 'Klik op het Instagram logo en check mijn reactie @korthom. Volg de oplossing en vind wat ik zoek!',
   },
   game4ClueText: {
-    nl: 'Ga naar de microsoft _ _ _ _ _ _ _ go en scan de barcode.',
+    nl: 'Ga naar de Microsoft _ _ _ _ _ _ _ Go en scan de barcode.',
   },
   game1VideoUrl: {
     nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Mediamarkt%2F1.%20MediaMarkt%20Escaperoom%20-%20Joost%20video%201%20-%209x16.mp4?alt=media&token=149fe9f0-aeaf-4f05-88a7-64f2d664100c',
@@ -202,13 +202,13 @@ export let translations = {
     nl: 'voer de streepjescode in',
   },
   'Camera access denied': {
-    nl: 'Camera toegang geweigerd',
+    nl: 'Camera toegang geweigerd, om barcodes te kunnen scannen moet je toegang geven aan de camera. Dit kan je aan passen in je internet browser instellingen.',
   },
   Submit: {
     nl: 'Verzenden',
   },
-  'write barcode...': {
-    nl: 'streepjescode invullen...',
+  'write barcode': {
+    nl: 'streepjescode invullen',
   },
   Rank: {
     nl: 'Rang',
@@ -239,10 +239,10 @@ export let translations = {
   },
   'Mediamarkt is doing a giveaway for the participants of the game. By entering your contact information down below, you enter the raffle and have a chance to':
     {
-      nl: 'Er is een giveaway voor de deelnemers van het spel. Door je contactgegevens achter te laten kun je het volgende winnen: ',
+      nl: 'Lekker bezig, je hebt het spel helemaal uitgespeeld! Nu kan je meedoen aan de giveaway, en maak je kans op het winnen van een Xbox Series S. Vul de onderstaande gegevens in om mee te doen met de giveaway.',
     },
   'win an XBOX': {
-    nl: 'win een XBOX series S',
+    nl: 'Win een XBOX series S',
   },
   Email: {
     nl: 'Email',
@@ -275,7 +275,7 @@ export let translations = {
     nl: 'Scorebord',
   },
   'No rooms found for today': {
-    nl: 'Geen kamers gevonden voor vandaag',
+    nl: 'Er zijn nog geen scores voor vandaag.',
   },
   'please set team name first': {
     nl: 'stel eerst een teamnaam in',
