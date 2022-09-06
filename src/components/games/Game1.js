@@ -8,7 +8,6 @@ import { HintsDialog, PreviousMediaDialog } from '../../utils/Dialog';
 import { useFirebase } from '../../utils/firebase';
 import { useDialogRef } from '../../utils/use';
 import { DevButton } from '../DevButton';
-import { Whitespace } from '../../Elements';
 
 const Game1 = ({ onNext }) => {
   let t = useTranslation();
@@ -75,10 +74,7 @@ const Game1 = ({ onNext }) => {
         alt='icon'
       />
       <div style={{textAlign: 'center'}}>{t('game1ClueText')}</div>
-      <Whitespace height={16} />
-      <div style={{textAlign: 'center'}}>{t('Zoek het product in de winkel en scan de WorkHardPlaySmart sticker. Je kan ook het artikelnummerbordje of de barcode rechts boven op het product handmatig invoeren.')}</div>  
-     
-      <BarcodeScanner codes={['11283','889842874112','889842873641','4251972906340','4251972906319','1683708','1683709','889842873344','8984287334']} onNext={onNext} />
+      <BarcodeScanner codes={['11283', '000000','889842874112','889842873641','4251972906340','4251972906319']} onNext={onNext} />
 
       <div
         style={{

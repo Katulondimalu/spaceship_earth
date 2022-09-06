@@ -16,11 +16,6 @@ const CleanupScreen = ({ to }) => {
       <div style={{ margin: 16 }}>
         <Titlebar>{t('Cleanup Instructions')}</Titlebar>
         <Whitespace height={16} />
-        <div style={{ width: '100%', objectFit: 'contain' }}>
-                {t('CleanUpText1')}
-                <p>&nbsp;</p>
-        </div>
-        <Whitespace height={16} />    
         <div
           style={{
             display: 'grid',

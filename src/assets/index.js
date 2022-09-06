@@ -5,7 +5,6 @@ import MicrosoftIcon from './images/common/Microsoft.png';
 import RetrieveCase from './images/common/RetrieveCase.png';
 import splashscreenIcon from './images/common/splashscreen.jpeg';
 import StartInstruction from './images/common/StartInstruction.svg';
-import SmartBar from './images/common/smartbar.jpg';
 import watermark from './images/common/watermark.png';
 import WindowsIcon from './images/common/WIN22_Windows11_logo_horiz_blue_rgb.png';
 import xbox from './images/common/XBOXseriesX.jpg';
@@ -30,7 +29,6 @@ const assets = {
       xbox,
       StartInstruction,
       RetrieveCase,
-      SmartBar,
       MicrosoftIcon,
       WindowsIcon,
       XboxIcon,

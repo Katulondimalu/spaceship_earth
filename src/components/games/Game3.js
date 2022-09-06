@@ -8,7 +8,6 @@ import { HintsDialog, PreviousMediaDialog } from '../../utils/Dialog';
 import { useFirebase } from '../../utils/firebase';
 import { useDialogRef } from '../../utils/use';
 import { DevButton } from '../DevButton';
-import { Whitespace } from '../../Elements';
 
 const Game3 = ({ onNext }) => {
   let t = useTranslation();
@@ -83,10 +82,7 @@ const Game3 = ({ onNext }) => {
         />
       </a>
       <div style={{ textAlign: 'center' }}>{t('game3ClueText')}</div>
-      <Whitespace height={16} />
-      <div style={{textAlign: 'center'}}>{t('Ga daarna naar deze afdeling en scan een van de WorkSmartPlayHard stickers.')}</div>  
-     
-      <BarcodeScanner codes={['31153']} onNext={onNext} />
+      <BarcodeScanner codes={['31153', '000000']} onNext={onNext} />
 
       <div
         style={{
