@@ -77,16 +77,8 @@ const Game2 = ({ onNext }) => {
       <div style={{ textAlign: 'center' }}>{t('game2ClueText')}</div>
       <BarcodeScanner
         codes={[
+          '1397',
           '24533',
-          '000000',
-          '889842505061',
-          '889842374100',
-          '889842563603',
-          '889842504255',
-          '12674863',
-          '1617296',
-          '1621533',
-          '1621532s',
         ]}
         onNext={onNext}
       />

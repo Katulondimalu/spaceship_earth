@@ -64,7 +64,7 @@ const Game4 = ({ onNext }) => {
       />
 
       <div style={{textAlign: 'center'}}>{t('game4ClueText')}</div>
-      <BarcodeScanner codes={['42743', '000000']} onNext={onNext} />
+      <BarcodeScanner codes={['1397', '42743']} onNext={onNext} />
 
       <div
         style={{

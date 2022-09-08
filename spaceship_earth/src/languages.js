@@ -17,7 +17,7 @@ export let translations = {
     nl: 'Teamnaam',
   },
   'Scan the qr code below to play on your own phone.': {
-    nl: "Medespelers kunnen deze  QR code scannen om video's mee te kijken op hun eigen telefoon. Wanneer iedereen de QR code heeft gescand kun je het spel starten. LET OP: je hebt vanaf dan 20 minuten de de game te spelen.",
+    nl: "Medespelers kunnen deze  QR code scannen om geluidsfragmenen mee te luisteren op hun eigen telefoon. Wanneer iedereen de QR code heeft gescand kun je het spel starten. LET OP: je hebt vanaf dan 20 minuten de de game te spelen.",
   },
   'Choose a team name': {
     nl: 'Kies een team naam',
@@ -41,10 +41,10 @@ export let translations = {
     nl: 'Luister naar het geluidsfragment om door te gaan naar de volgende stap.',
   },
   'Skip video': {
-    nl: 'Video overslaan',
+    nl: 'geluidsfragment overslaan',
   },
   Video: {
-    nl: 'Video',
+    nl: 'geluidsfragment',
   },
   Hints: {
     nl: 'Hints',
