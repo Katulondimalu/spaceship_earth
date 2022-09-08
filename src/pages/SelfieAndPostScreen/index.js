@@ -57,7 +57,7 @@ const SelfieAndPostScreen = ({ to }) => {
         }}
       >
         <h2 style={{ margin: 0 }}>
-          {t('If you cannot be a star in the sky, be a light in your house.')}
+          {t('Maak het glorieuze moment van slagen een herinnering. Selfietime!')}
         </h2>
         <Whitespace height={16} />
         {file_and_dataurl == null ? (
@@ -155,7 +155,7 @@ const SelfieAndPostScreen = ({ to }) => {
         />
 
         <img
-          src={assets.images.common.MicrosoftIcon}
+          src={assets.images.common.XboxIcon}
           style={{
             width: '100%',
             padding: 16,
@@ -165,30 +165,7 @@ const SelfieAndPostScreen = ({ to }) => {
           }}
           alt='icon'
         />
-        <img
-          src={assets.images.common.WindowsIcon}
-          style={{
-            width: '100%',
-            padding: 16,
-            marginTop: -30,
-            maxWidth: 230,
-            alignSelf: `center`,
-            transform: `translateY(10px)`,
-          }}
-          alt='icon'
-        />
-        <img
-          src={assets.images.common.XboxIcon}
-          style={{
-            width: '100%',
-            padding: 16,
-            marginTop: -50,
-            maxWidth: 190,
-            alignSelf: `center`,
-            transform: `translateY(10px)`,
-          }}
-          alt='icon'
-        />
+        
         <Whitespace height={25} />
         <button onClick={() => navigate(`${to}`)}>
           {t('Cleanup Instructions')}
