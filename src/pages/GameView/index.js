@@ -7,6 +7,7 @@ import Game2 from '../../components/games/Game2';
 import Game3 from '../../components/games/Game3';
 import Game4 from '../../components/games/Game4';
 import Game5 from '../../components/games/Game5';
+import Game6 from '../../components/games/Game6';
 //import Game5 from '../../components/games/Game5';
 import Instructions from '../../components/instructions';
 import StartInstruction from '../../components/instructions/StartInstruction';
@@ -272,7 +273,30 @@ const GameView = () => {
               }}
             />
           )}
-          {step === 12 && (
+           {step === 12 && (
+            <PrevideoScreen
+              onNext={() => {
+                if (!is_optimus_master_controller_prime) {
+                  window.alert(t('Only the gamemaster can control the game.'));
+                  return;
+                }
+                update(room_ref, { step: 13 });
+              }}
+              url={t('game6VideoUrl')}
+            />
+          )}
+          {step === 13 && (
+            <Game6
+              onNext={() => {
+                if (!is_optimus_master_controller_prime) {
+                  window.alert(t('Only the gamemaster can control the game.'));
+                  return;
+                }
+                update(room_ref, { step: 14 });
+              }}
+            />
+          )}
+          {step === 14 && (
             <PrevideoScreen
               onNext={() => {
                 if (!is_optimus_master_controller_prime) {
@@ -280,7 +304,7 @@ const GameView = () => {
                   return;
                 }
                 update(room_ref, {
-                  step: 13,
+                  step: 15,
                   finished_time: Date.now(),
                   total_time_spent_score:
                     differenceInSeconds(Date.now(), room.start_time ?? 0) +
@@ -290,7 +314,7 @@ const GameView = () => {
               url={t('game5VideoUrl')}
             />
           )}
-          {step === 13 && (
+          {step === 15 && (
             <TopScore RoomContext={RoomContext} to='../end/leader-board' />
           )}
         </div>

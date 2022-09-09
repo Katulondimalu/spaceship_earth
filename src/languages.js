@@ -120,6 +120,15 @@ export let translations = {
   hintText_5c: {
     nl: 'Zoek de Microsoft Surface Go',
   },
+  hintText_6a: {
+    nl: 'Leg de twee blaadjes op elkaar',
+  },
+  hintText_6b: {
+    nl: 'Maak de vormen in de app met de blaadjes. Welke letters zie je?',
+  },
+  hintText_6c: {
+    nl: 'Zoek de Microsoft Surface Go',
+  },
   Continue: {
     nl: 'Verder',
   },
@@ -160,20 +169,26 @@ export let translations = {
   game5ClueText: {
     nl: 'GAME 5',
   },
+  game6ClueText: {
+    nl: 'GAME 6',
+  },
   game1VideoUrl: {
-    nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Mediamarkt%2F1.%20MediaMarkt%20Escaperoom%20-%20Joost%20video%201%20-%209x16.mp4?alt=media&token=149fe9f0-aeaf-4f05-88a7-64f2d664100c',
+    nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Spaceship%20Earth%2FSEgame-1.mp3?alt=media&token=db192fdf-d7c2-47e7-94fc-592aac2fd1c8',
   },
   game2VideoUrl: {
-    nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Mediamarkt%2F2.%20MediaMarkt%20Escaperoom%20-%20Joost%20video%202%20-%209x16.mp4?alt=media&token=3bc9edaf-bffd-483e-afcf-576bdb1ddf85',
+    nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Spaceship%20Earth%2FSEgame-2.mp3?alt=media&token=573a1137-7560-4ea5-ab3a-523ee282925a',
   },
   game3VideoUrl: {
-    nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Mediamarkt%2FMediaMarkt%20Escaperoom%20-%20Thomas%203-.mp4?alt=media&token=0d92640c-5d1a-478c-ada2-08fd582c7e05',
+    nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Spaceship%20Earth%2FSEgame-3.mp3?alt=media&token=f61ed241-2e84-4e97-9cd1-b349bde69cf2',
   },
   game4VideoUrl: {
-    nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Mediamarkt%2FMediaMarkt%20Escaperoom%20-%20Thomas%204.mp4?alt=media&token=a0607b1e-1c75-4ef3-8c08-54c83ba6ac2a',
+    nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Spaceship%20Earth%2FSEgame-4.mp3?alt=media&token=c7e629fb-4a2c-4009-8202-1a5d593ff676',
   },
   game5VideoUrl: {
-    nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Mediamarkt%2F5.%20MediaMarkt%20Escaperoom%20-%20Joost%20video%205%20-%209x16.mp4?alt=media&token=3839fe46-f17a-4ae2-abc7-af56119594f2',
+    nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Spaceship%20Earth%2FSEgame-5.mp3?alt=media&token=1eacfb4a-c4ee-4c04-9da3-98b1241c0bc1',
+  },
+  game6VideoUrl: {
+    nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Spaceship%20Earth%2FSEgame-6.mp3?alt=media&token=db083c92-5cfc-4ecf-9c2c-d548fbf23247',
   },
   'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Filmpjes%20Engels%2FSpel%205%20-%20ondertiteld%20-%20Engels.mp4?alt=media&token=f88703aa-d7e2-4a3c-8a01-2a0bf6a9345b':
     {
