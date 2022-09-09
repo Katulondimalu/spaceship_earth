@@ -9,7 +9,7 @@ import { useFirebase } from '../../utils/firebase';
 import { useDialogRef } from '../../utils/use';
 import { DevButton } from '../DevButton';
 
-const Game4 = ({ onNext }) => {
+const Game5 = ({ onNext }) => {
   let t = useTranslation();
   let dialog_1 = useDialogRef();
   let previous_media_dialog = useDialogRef();
@@ -41,7 +41,7 @@ const Game4 = ({ onNext }) => {
             onBuy: () => {
               set(child(room_ref, 'bought_hints/hint_5a'), true);
             },
-            text: t('hintText_4a'),
+            text: t('hintText_5a'),
           },
           {
             bought: room?.bought_hints?.hint_4b,
@@ -49,7 +49,7 @@ const Game4 = ({ onNext }) => {
             onBuy: () => {
               set(child(room_ref, 'bought_hints/hint_5b'), true);
             },
-            text: t('hintText_4b'),
+            text: t('hintText_5b'),
           },
 
           {
@@ -58,7 +58,7 @@ const Game4 = ({ onNext }) => {
             onBuy: () => {
               set(child(room_ref, 'bought_hints/hint_5c'), true);
             },
-            text: t('hintText_4c'),
+            text: t('hintText_5c'),
           },
         ]}
       />
@@ -94,4 +94,4 @@ const Game4 = ({ onNext }) => {
   );
 };
 
-export default Game4;
+export default Game5;

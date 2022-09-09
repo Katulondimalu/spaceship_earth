@@ -82,7 +82,7 @@ export let translations = {
     nl: 'oranje = geel+rood, groen=geel+blauw, grijs=zwart+wit,roze=rood+wit, de cijfers geven de volgorde aan',
   },
   hintText_1c: {
-    nl: 'zoek de M365 software pass, deze liggen naast de computer afdeling',
+    nl: 'De code is: AHIEA',
   },
   hintText_2a: {
     nl: 'Gebruik de spiegel om de figuren in de app te verbinden. Wat zie je?',
@@ -91,7 +91,7 @@ export let translations = {
     nl: 'Zet de spiegel op de stippel lijnen',
   },
   hintText_2c: {
-    nl: 'Zoek de XBOX gamepass',
+    nl: 'De Code is: 255',
   },
   hintText_3a: {
     nl: 'Ga naar mijn instagram comments voor het juiste begin',
@@ -100,7 +100,7 @@ export let translations = {
     nl: 'C = the way 2 go, los het doolhof op. Welke letters kom je onderweg tegen?',
   },
   hintText_3c: {
-    nl: 'Ga naar de smartphones',
+    nl: 'De coade is: omlaag, omhoog, omlaag, omhoog, omlaag, omlaag, omhoog, omhoog, omlaag, omhoog',
   },
   hintText_4a: {
     nl: 'Leg de twee blaadjes op elkaar',
@@ -109,6 +109,15 @@ export let translations = {
     nl: 'Maak de vormen in de app met de blaadjes. Welke letters zie je?',
   },
   hintText_4c: {
+    nl: 'Zoek de Microsoft Surface Go',
+  },
+  hintText_5a: {
+    nl: 'Leg de twee blaadjes op elkaar',
+  },
+  hintText_5b: {
+    nl: 'Maak de vormen in de app met de blaadjes. Welke letters zie je?',
+  },
+  hintText_5c: {
     nl: 'Zoek de Microsoft Surface Go',
   },
   Continue: {
