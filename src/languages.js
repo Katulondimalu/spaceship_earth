@@ -190,6 +190,9 @@ export let translations = {
   game6VideoUrl: {
     nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Spaceship%20Earth%2FSEgame-6.mp3?alt=media&token=db083c92-5cfc-4ecf-9c2c-d548fbf23247',
   },
+  gameeindeVideoUrl: {
+    nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Nederlands%20klein%2Fspel_6%20(720p).mp4?alt=media&token=f59585d7-e76d-4a8a-9585-e4b3aa974d71',
+  },
   'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Filmpjes%20Engels%2FSpel%205%20-%20ondertiteld%20-%20Engels.mp4?alt=media&token=f88703aa-d7e2-4a3c-8a01-2a0bf6a9345b':
     {
       nl: 'https://firebasestorage.googleapis.com/v0/b/de-kist.appspot.com/o/Mediamarkt%2F5.%20MediaMarkt%20Escaperoom%20-%20Joost%20video%205%20-%209x16.mp4?alt=media&token=3839fe46-f17a-4ae2-abc7-af56119594f2',

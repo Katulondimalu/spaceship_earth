@@ -311,7 +311,7 @@ const GameView = () => {
                     (room.hints_penalty ?? 0) * 60,
                 });
               }}
-              url={t('game5VideoUrl')}
+              url={t('gameeindeVideoUrl')}
             />
           )}
           {step === 15 && (

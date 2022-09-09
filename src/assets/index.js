@@ -6,7 +6,7 @@ import RetrieveCase from './images/common/RetrieveCase.png';
 import splashscreenIcon from './images/common/splashscreen.jpeg';
 import StartInstruction from './images/common/globe_turning.gif';
 import watermark from './images/common/watermark.png';
-import WindowsIcon from './images/common/WIN22_Windows11_logo_horiz_blue_rgb.png';
+import WindowsIcon from './images/common/planeten143.png';
 import xbox from './images/common/XBOXseriesX.jpg';
 import XboxIcon from './images/common/logo_exp_inc_zwart.png';
 import game1Clue from './images/game-clue/game1clue.png';
@@ -16,6 +16,7 @@ import game3Clue from './images/game-clue/insta_fav.webp';
 import hint2b from './images/hints/hint2b.png';
 import GBIcon from './images/language/GB.svg';
 import NLIcon from './images/language/NL.svg';
+
 
 const assets = {
   images: {
