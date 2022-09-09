@@ -54,7 +54,7 @@ const Game3 = ({ onNext }) => {
 
           {
             bought: room?.bought_hints?.hint_3c,
-            penalty_minutes: 5,
+            penalty_minutes: 10,
             onBuy: () => {
               set(child(room_ref, 'bought_hints/hint_3c'), true);
             },

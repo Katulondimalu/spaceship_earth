@@ -111,7 +111,7 @@ const TimeThingy = ({ room }) => {
               alignItems: 'center',
             }}
           >
-            <div style={{ color: '#af0000', fontSize: '1.2em' }}>- 5 min</div>
+            <div style={{ color: '#af0000', fontSize: '1.2em' }}>- 10 min</div>
             {t(
               'For every hint you unlock, there will be some time added to your final score. You will still be able to play the full 90 minutes, but your final score will be a bit less.'
             )}
@@ -266,7 +266,7 @@ export default TimeThingy;
 //               alignItems: 'center',
 //             }}
 //           >
-//             <div style={{ color: '#af0000', fontSize: '1.2em' }}>- 5 min</div>
+//             <div style={{ color: '#af0000', fontSize: '1.2em' }}>- 10 min</div>
 //             {t(
 //               'For every hint you unlock, there will be some time added to your final score. You will still be able to play the full 90 minutes, but your final score will be a bit less.'
 //             )}

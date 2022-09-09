@@ -76,58 +76,58 @@ export let translations = {
     nl: 'Breng de GamifiCase terug',
   },
   hintText_1a: {
-    nl: 'Maak de letters en cijfers compleet. Welke kleuren maak je als je dit doet? Gebruik deze om de volgorde van de cijfers en letters te vinden',
+    nl: 'Scan de QR code en vergelijk de afbeelding die je ziet met die op het doek',
   },
   hintText_1b: {
-    nl: 'oranje = geel+rood, groen=geel+blauw, grijs=zwart+wit,roze=rood+wit, de cijfers geven de volgorde aan',
+    nl: 'Zet de kaartjes op de goede volgorde',
   },
   hintText_1c: {
     nl: 'De code is: AHIEA',
   },
   hintText_2a: {
-    nl: 'Gebruik de spiegel om de figuren in de app te verbinden. Wat zie je?',
+    nl: 'Gebruik de streepjescode op de achterkant van de kaart om de planeten te ontrafelen',
   },
   hintText_2b: {
-    nl: 'Zet de spiegel op de stippel lijnen',
+    nl: 'Tel de prijzen bij elkaar op. Gebruik de rode bolletjes als code voor het slot.',
   },
   hintText_2c: {
     nl: 'De Code is: 255',
   },
   hintText_3a: {
-    nl: 'Ga naar mijn instagram comments voor het juiste begin',
+    nl: 'Wie is er greenwasher en wie niet?',
   },
   hintText_3b: {
-    nl: 'C = the way 2 go, los het doolhof op. Welke letters kom je onderweg tegen?',
+    nl: 'Trek de pieletjes van de greenwashers naar buiten.',
   },
   hintText_3c: {
     nl: 'De coade is: omlaag, omhoog, omlaag, omhoog, omlaag, omlaag, omhoog, omhoog, omlaag, omhoog',
   },
   hintText_4a: {
-    nl: 'Leg de twee blaadjes op elkaar',
+    nl: 'Zet de juiste mensen op de juiste plaats',
   },
   hintText_4b: {
-    nl: 'Maak de vormen in de app met de blaadjes. Welke letters zie je?',
+    nl: 'Leg de kaartjes ook daadwerkelijk op de kaart, dit maakt het makkelijker.',
   },
   hintText_4c: {
-    nl: 'Zoek de Microsoft Surface Go',
+    nl: 'De code is 620943, gebruk de magneet op het volgene doosje open te maken.',
   },
   hintText_5a: {
-    nl: 'Leg de twee blaadjes op elkaar',
+    nl: 'Kleur de gevolgen van klimaatverandering in.',
   },
   hintText_5b: {
-    nl: 'Maak de vormen in de app met de blaadjes. Welke letters zie je?',
+    nl: 'Je ziet na het inkleuren van de gevolgen van klimaatverandering een code staan. Vul die in bij het slotje.',
   },
   hintText_5c: {
-    nl: 'Zoek de Microsoft Surface Go',
+    nl: 'De code van het volgende slot is 7034',
   },
   hintText_6a: {
-    nl: 'Leg de twee blaadjes op elkaar',
+    nl: 'Kijk op het kistje naar de afbeelding.',
   },
   hintText_6b: {
-    nl: 'Maak de vormen in de app met de blaadjes. Welke letters zie je?',
+    nl: 'Start met de hoeken van 45 graden, werk vanuit daar verder',
   },
   hintText_6c: {
-    nl: 'Zoek de Microsoft Surface Go',
+    nl: 'De code is van lings naar rechts 9268',
   },
   Continue: {
     nl: 'Verder',
